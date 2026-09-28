@@ -15,6 +15,19 @@ A fast, lightweight command-line task manager built in Python. Designed for deve
 - **Formatted Terminal Output**: Uses ANSI color coding and formatted tables for clear visibility.
 
 ---
+## Features Showcase
+
+| Feature | Description | CLI Command |
+| :--- | :--- | :--- |
+| **Create Task** | Add new tasks with title and priority levels (`A`, `B`, `C`). | `python todo.py add "<title>" -p <prio>` |
+| **List Tasks** | View all active and completed tasks in a styled format. | `python todo.py list` |
+| **Filter by Status** | View tasks isolated by `pending` or `completed` state. | `python todo.py list -s pending` |
+| **Filter by Priority** | View tasks isolated by priority level (`A`, `B`, or `C`). | `python todo.py list -p A` |
+| **Complete Task** | Mark a task as done by its unique ID. | `python todo.py complete <id>` |
+| **Delete Task** | Remove a task permanently from local storage. | `python todo.py delete <id>` |
+| **JSON Storage** | Auto-saves all changes locally to `tasks.json`. | *Automatic* |
+
+---
 
 ## Installation
 
