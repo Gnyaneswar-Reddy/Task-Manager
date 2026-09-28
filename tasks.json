@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Setup repository structure",
+    "priority": "A",
+    "completed": true,
+    "created_at": "2026-08-10"
+  },
+  {
+    "id": 2,
+    "title": "Implement CLI argument parser",
+    "priority": "B",
+    "completed": false,
+    "created_at": "2026-08-11"
+  }
+]
